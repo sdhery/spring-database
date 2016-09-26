@@ -46,7 +46,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -160,7 +159,7 @@
 		</dependency>
 	</dependencies>
 
-	<!-- 将工程打成jar包 -->
+	<!-- 将工程打成tar.gz包，直接就可以进行部署使用 -->
 	<build>
 		<plugins>
 			<plugin>
@@ -203,6 +202,5 @@
             </plugin>
 		</plugins>
 	</build>
-
 
 </project>

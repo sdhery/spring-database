@@ -29,8 +29,8 @@ CREATE TABLE `blog` (
 -- ----------------------------
 -- Records of blog
 -- ----------------------------
-INSERT INTO `blog` VALUES ('110', 'database1-优必选管理云平台', 'mybatis-龙岗大数据智慧警务云平台开发使用，请各个分局，进行学习。进一步提高工作效率。');
-INSERT INTO `blog` VALUES ('120', 'database1-优必选科技月度会议', 'mybatis-关于开始人员招聘，及人员信息包括Java架构师，应用开发工程师，测试工程师，大数据分析师等岗位');
+INSERT INTO `blog` VALUES ('110', 'database1-管理云平台', 'mybatis-云平台开发使用，请各个分局，进行学习。进一步提高工作效率。');
+INSERT INTO `blog` VALUES ('120', 'database1-月度会议', 'mybatis-关于开始人员招聘，及人员信息包括Java架构师，应用开发工程师，测试工程师，大数据分析师等岗位');
 
 -- ----------------------------
 -- Table structure for `user_info`
@@ -50,4 +50,4 @@ CREATE TABLE `user_info` (
 -- ----------------------------
 -- Records of user_info
 -- ----------------------------
-INSERT INTO `user_info` VALUES ('1', '贾亮亮', 'deane', 'java后端开发', '深圳市宝安区', '15010699876', '123456@qq.com');
+INSERT INTO `user_info` VALUES ('1', 'deane', 'deane', 'java后端开发', '深圳市宝安区', '15010699876', '123456@qq.com');
