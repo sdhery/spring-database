@@ -16,9 +16,9 @@
 
 3、spring-database-1.0.0-assembly.tar.gz
 
-4、直接发布到 Linux服务器上，配置好数据库信息 
+4、直接上传到 Linux服务器上，配置好数据库信息 
 
-5、tar -zxvf spring-database-1.0.0-assembly.tar.gz\n
+5、tar -zxvf spring-database-1.0.0-assembly.tar.gz
 
 6、linux赋予文件运行权限
 
