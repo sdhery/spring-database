@@ -160,6 +160,7 @@
 		</dependency>
 	</dependencies>
 
+	<!-- 将工程打成jar包 -->
 	<build>
 		<plugins>
 			<plugin>
