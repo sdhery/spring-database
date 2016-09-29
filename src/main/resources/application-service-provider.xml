@@ -99,4 +99,6 @@
 	
 	<tx:annotation-driven transaction-manager="transactionManager"/>
 	
+	<!-- 导入Spring Security Oauth2.0 资源配置文件 -->
+	<import resource="classpath:application-context-security.xml"/>
 </beans>

@@ -19,6 +19,7 @@ import com.xiaoshu.start.service.BlogService;
  * Copyright (C)2013-2016 深圳优必选科技 All rights reserved.
  */
 @RestController
+@RequestMapping(value="/admin")
 public class MainController {
 	
 	@Autowired

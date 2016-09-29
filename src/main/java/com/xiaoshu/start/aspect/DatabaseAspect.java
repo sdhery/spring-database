@@ -58,11 +58,11 @@ private static final Logger _logger = LoggerFactory.getLogger(DatabaseAspect.cla
 		Object[] arguments = joinPoint.getArgs();
 		String dataBase = null;
 		try {
-			Class targetClass = Class.forName(targetName);
+			Class<?> targetClass = Class.forName(targetName);
 			Method[] methods = targetClass.getDeclaredMethods();
 			for(Method method : methods){
 				if(method.getName().equals(methodName)){
-					Class clazz[] = method.getParameterTypes();
+					Class<?> clazz[] = method.getParameterTypes();
 					if(clazz.length == arguments.length){
 						dataBase = method.getAnnotation(DatabaseAnnotation.class).dataBase();
 						break;
