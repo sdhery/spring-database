@@ -9,6 +9,8 @@
 
 4、提供服务打包成tar.gz,可以直接进行打包，部署到服务器上即可
 
+5、添加Spring security Oauth2.0 进行身份验证
+
 ## Spring-database项目运行
 1、mvn clean && mvn package -Dmaven.test.skip
 
@@ -16,7 +18,7 @@
 
 3、spring-database-1.0.0-assembly.tar.gz
 
-4、直接上传到 Linux服务器上，配置好数据库信息 
+4、直接上传到 Linux服务器上，配置好数据库信息 （详细参考 database1.sql 和database2.sql）
 
 5、tar -zxvf spring-database-1.0.0-assembly.tar.gz
 
